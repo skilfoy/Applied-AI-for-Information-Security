@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Checkpoints & cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large raw datasets (downloaded dynamically / extracted by notebook)
+*.zip
+*.txt
+malimg_paper_dataset_imgs/
+malimg_split_80_20/
+malimg_audit/
+sms_spam_collection/
+imdb_skills_assessment/
+
+# Model artifacts (re-generatable via notebook execution)
+*.joblib
+*.joblib copy
+*.pt
+malware_model_artifacts/
+
+# Working copies
+*-checkpoint.ipynb
+*copy.ipynb
