@@ -16,6 +16,34 @@
 - 📄 **[Read the Full Technical PDF Report](./Applied%20AI%20for%20Information%20Security.pdf)**
 - 📓 **[Open Interactive Notebook](./Applied%20AI%20for%20Information%20Security.ipynb)**
 - 🔗 **[GitHub Gist Version](https://gist.github.com/skilfoy/9405902f61061c0110000538c57e984e)**
+- 🤖 **[Introduction to Red Teaming AI Notebook](./Introduction%20to%20Red%20Teaming%20AI.ipynb)**
+- 📘 **[Introduction to Red Teaming AI PDF Report](./Introduction%20to%20Red%20Teaming%20AI.pdf)**
+- 🔗 **[Introduction to Red Teaming AI Gist](https://gist.github.com/skilfoy/800ddaff92e0f7c01001300bcbe48118)**
+
+---
+
+## 🤖 Module: Introduction to Red Teaming AI
+
+**Companion to:** [Hack The Box Academy — Introduction to Red Teaming AI](https://academy.hackthebox.com/app/module/294)
+
+This portfolio artifact documents an end-to-end red-team assessment of machine-learning and generative-AI systems. The accompanying notebook develops a reproducible narrative around model exposure, training-data manipulation, text-generation attacks, data poisoning, and component-level attack surfaces.
+
+The implementation preserves the supplied HTB lab workflow while adding analytical commentary, explicit provenance, reproducibility notes, result interpretation, and a final triggered-poisoning assessment. The compiled PDF provides a reviewable technical report, while the notebook preserves the executable evidence and recorded outputs.
+
+### Assessment Coverage
+
+1. ML-based system architecture and red-team assessment scope
+2. Model manipulation and inference-time behavior
+3. LLM OWASP Top 10 and text-generation attack surfaces
+4. Secure AI architecture through Google’s SAIF
+5. Model, data, application, and system component attacks
+6. Triggered data poisoning and validation of the resulting model behavior
+
+### Portfolio Artifacts
+
+- [Interactive notebook](./Introduction%20to%20Red%20Teaming%20AI.ipynb)
+- [Compiled technical report](./Introduction%20to%20Red%20Teaming%20AI.pdf)
+- [GitHub Gist](https://gist.github.com/skilfoy/800ddaff92e0f7c01001300bcbe48118)
 
 ---
 
@@ -69,8 +97,10 @@ Applied AI for Information Security
 
 ```bash
 .
-├── Applied AI for Information Security.ipynb  # Primary executable Jupyter notebook
-├── Applied AI for Information Security.pdf    # Full compiled technical report with clickable TOC
+├── Applied AI for Information Security.ipynb  # Applications of AI in InfoSec notebook
+├── Applied AI for Information Security.pdf    # Applications of AI in InfoSec report
+├── Introduction to Red Teaming AI.ipynb       # AI red-teaming assessment notebook
+├── Introduction to Red Teaming AI.pdf         # AI red-teaming technical report
 ├── README.md                                  # Portfolio overview and navigation
 ├── demo_dataset.csv                           # Sample network log validation data
 └── .gitignore                                 # Dataset and artifact exclusion rules
@@ -107,4 +137,5 @@ Applied AI for Information Security
 ## 📜 License & Acknowledgments
 
 - Built as an analytical extension of the **Hack The Box Academy** module *Applications of AI in InfoSec*.
+- Built as a portfolio companion to the **Hack The Box Academy** module *Introduction to Red Teaming AI*.
 - Research datasets: NSL-KDD (UNB), SMS Spam Collection (UCI), Malimg (Nataraj et al.), and IMDB Large Movie Review Dataset (Maas et al.).
